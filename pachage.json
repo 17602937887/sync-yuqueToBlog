@@ -1,0 +1,6 @@
+"scripts": {
+	"build": "hexo generate",
+	"clean": "hexo clean",
+	"server": "hexo server",
+	"deploy": "hexo clean && hexo g -d"
+}
