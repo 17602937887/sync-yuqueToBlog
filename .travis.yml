@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+- stable
+branchs:
+  only:
+  - master
+addons:
+  ssh_known_hosts:
+  - 39.106.120.32
+
