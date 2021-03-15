@@ -11,8 +11,8 @@ addons:
   ssh_known_hosts:
   - 39.106.120.32
 before_install:
-- openssl aes-256-cbc -K $encrypted_83cbab1bbca1_key -iv $encrypted_83cbab1bbca1_iv
-  -in id_rsa.enc -out ~/.ssh/id_rsa -d
+- openssl aes-256-cbc -K $encrypted_f217180e22ee_key -iv $encrypted_f217180e22ee_iv
+  -in .travis/id_rsa.enc -out ~/.ssh/id_rsa -d
 - chmod 600 ~/.ssh/id_rsa
 - eval $(ssh-agent)
 - ssh-add ~/.ssh/id_rsa
