@@ -83,6 +83,7 @@ deploy:
     type: git
     repo: 
         "github": git@github.com:17602937887/17602937887.github.io.git
+        "阿里": git@39.106.120.32:blog.git
     branch: master     
 baidushare: true
 lazyload:
