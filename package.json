@@ -34,10 +34,10 @@
         "adapter": "hexo",
         "concurrency": 5,
         "baseUrl": "https://www.yuque.com/api/v2",
-        "login": "hang_ccccc",    //语雀账号
-        "repo": "blog",            //语雀知识库id
+        "login": "hang_ccccc",
+        "repo": "blog",
         "onlyPublished": false,
-        "token": "ljXmVi81JcpQAA64mnSawt1oWRDAx7XBX1Zhgf9a"     //语雀token
+        "token": "ljXmVi81JcpQAA64mnSawt1oWRDAx7XBX1Zhgf9a"
     }
 }
 
