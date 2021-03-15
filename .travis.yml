@@ -7,6 +7,10 @@ branchs:
 install:
 - npm install
 - npm install --save hexo-deployer-git
+- npm install --save yuque-hexo
+- npm install --save hexo-generator-json-content
+- npm install --save hexo-helper-live2d
+- npm install --save live2d-widget-model-koharu
 addons:
   ssh_known_hosts:
   - 39.106.120.32
