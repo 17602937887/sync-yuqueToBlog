@@ -21,7 +21,7 @@ before_install:
 - eval $(ssh-agent)
 - ssh-add ~/.ssh/id_rsa
 - cp .travis/ssh_config ~/.ssh/config
-- git config --global user.name "陈航"
+- git config --global user.name "chenhang"
 - git config --global user.email "545192053@qq.com"
 after_success:
 - ssh travis@39.106.120.32 -o StrictHostKeyChecking=no 'cd ~/sync-yuqueToBlog  &&
