@@ -13,7 +13,7 @@ install:
 - npm install --save live2d-widget-model-koharu
 addons:
   ssh_known_hosts:
-  - 39.106.120.32
+  - 8.210.131.194
 before_install:
 - openssl aes-256-cbc -K $encrypted_f217180e22ee_key -iv $encrypted_f217180e22ee_iv
   -in .travis/id_rsa.enc -out ~/.ssh/id_rsa -d
@@ -24,7 +24,7 @@ before_install:
 - git config --global user.name "chenhang"
 - git config --global user.email "545192053@qq.com"
 after_success:
-- ssh travis@39.106.120.32 -o StrictHostKeyChecking=no 'cd ~/sync-yuqueToBlog  &&
+- ssh travis@8.210.131.194 -o StrictHostKeyChecking=no 'cd ~/sync-yuqueToBlog  &&
   git pull && npm run deploy'
 script:
 - npm run deploy

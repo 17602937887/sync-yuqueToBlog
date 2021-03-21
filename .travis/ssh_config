@@ -1,5 +1,5 @@
 Host test
-HostName 39.106.120.32
+HostName 8.210.131.194
 #登陆的用户名
 User travis
 IdentitiesOnly yes
