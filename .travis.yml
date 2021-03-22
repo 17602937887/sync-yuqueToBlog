@@ -25,6 +25,6 @@ before_install:
 - git config --global user.email "545192053@qq.com"
 after_success:
 - ssh travis@8.210.131.194 -o StrictHostKeyChecking=no 'cd ~/sync-yuqueToBlog  &&
-  git pull && npm run deploy'
+  git pull && echo "Hello,World" >> hello.txt && npm run deploy'
 script:
 - npm run deploy
