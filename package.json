@@ -9,7 +9,7 @@
 	"build": "hexo generate",
 	"clean": "hexo clean",
 	"server": "hexo server",
-	"deploy": "hexo clean && hexo d- -g"
+	"deploy": "hexo clean && hexo d -g"
   },
   "dependencies": {
     "hexo": "^3.7.0",
