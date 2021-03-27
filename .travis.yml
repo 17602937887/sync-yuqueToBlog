@@ -20,8 +20,5 @@ before_install:
 - cp .travis/ssh_config ~/.ssh/config
 - git config --global user.name "chenhang"
 - git config --global user.email "545192053@qq.com"
-after_success:
-- ssh travis@8.210.131.194 -o StrictHostKeyChecking=no 'cd ~/sync-yuqueToBlog  &&
-  git pull && npm run deploy'
 script:
 - npm run deploy
