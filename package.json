@@ -10,7 +10,7 @@
 	"clean": "hexo clean",
 	"server": "hexo server",
 	"deploy": "hexo clean && hexo d- -g"
-  }
+  },
   "dependencies": {
     "hexo": "^3.7.0",
     "hexo-deployer-git": "^0.3.1",
