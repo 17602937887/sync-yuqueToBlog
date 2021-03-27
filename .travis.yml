@@ -7,7 +7,8 @@ branchs:
 install:
 - npm install
 - npm install --save hexo-deployer-git
-- npm install -g hexo-cli
+- npm install --save yuque-hexo
+- npm install --save hexo-generator-json-content
 addons:
   ssh_known_hosts:
   - 8.210.131.194
