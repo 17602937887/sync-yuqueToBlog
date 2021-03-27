@@ -93,12 +93,12 @@ index_with_subtitle: false
 # Value before `||` delimeter is the target link.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, question icon will be loaded.
 menu:
-  首页: / || home
+  首页: /|| home
 #  关于: /about/ || user
-  标签: /tags/ || tags
-  分类: /categories/ || th
-  归档: /archives/ || archive
-  小游戏: /game/ || gamepad
+  标签: /tags/|| tags
+  分类: /categories/|| th
+  归档: /archives/|| archive
+  小游戏: /game/|| gamepad
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
